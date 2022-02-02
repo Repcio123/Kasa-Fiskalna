@@ -1,6 +1,7 @@
 ﻿  Źródło.cpp
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\magazyn.h(11,2): warning C4091: "extern ": zignorowano na lewo od "Produkt" podczas gdy brak deklaracji zmiennej
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\magazyn.h(28,42): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(31,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(66,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
-  Kasa fiskalna.vcxproj -> C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\x64\Debug\Kasa fiskalna.exe
+C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\Kasa fiskalna\magazyn.h(11,2): warning C4091: "extern ": zignorowano na lewo od "Produkt" podczas gdy brak deklaracji zmiennej
+C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\Kasa fiskalna\magazyn.h(28,42): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(31,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
+C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(66,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
+C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\Kasa fiskalna\dostawa.h(30,6): warning C4101: "ilosc": lokalna zmienna, do której nie istnieje odwołanie
+  Kasa fiskalna.vcxproj -> C:\Users\bartek\Documents\GitHub\Cash-Register\Kasa fiskalna\x64\Debug\Kasa fiskalna.exe

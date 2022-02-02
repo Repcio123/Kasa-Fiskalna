@@ -62,7 +62,7 @@ void sprzedaz() {
 			cin >> kod;
 			if (kod == -1) { break; }
 			cout << "Podaj ilosc:"; cin >> ilosc;
-			cout << ilosc<<" x"<<p[kod].nazwa << " " <<ilosc* p[kod].cena << " z³" << endl;
+			cout << ilosc<<" x "<<p[kod].nazwa << " " <<ilosc* p[kod].cena << " z³" << endl;
 			p[kod].ilosc - ilosc;
 			suma += ilosc* p[kod].cena;
 

@@ -11,7 +11,12 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "polish"); //kodowanie polskich znaków
-
+	for (int i = 11; i < 100; i++) { //puste miejsca na produkty
+		p[i].kod = i;
+		p[i].cena = 0;
+		p[i].ilosc = 0;
+		p[i].nazwa = "Brak produktu";
+	} 
 	
 		int opcja{};
 		
@@ -21,7 +26,7 @@ int main() {
 			cout << "Witaj sprzedawco!" << endl;
 			cout << "Z której opcji chcesz skorzystaæ? " << endl;
 			cout << "=========================================" << endl;
-			cout << "1. Tryb sprzeda¿y" << endl << "2. Tryb dostawy" << endl << "3. Stan magazynu" << endl << "4. Zakoñcz" << endl;
+			cout << "1. Tryb sprzeda¿y" << endl << "2. Tryb dostawy" << endl << "3. Stan magazynu" << endl << "4. Dodaj produkt" << endl<< "5. Zakoñcz" << endl;
 			cin >> opcja;
 			switch (opcja) {
 			case 1:
@@ -37,12 +42,16 @@ int main() {
 				continue;
 			
 			case 4:
+				nowy();
+				continue;
+			case 5:
 				break;
+				
 			default:
 				cout << "Podano z³¹ wartoœæ. Spróbuj jeszcze raz"<<endl;
 				break;
 			}
-		} while (opcja != 4);
+		} while (opcja != 5);
 		
 	return 0;
 }
