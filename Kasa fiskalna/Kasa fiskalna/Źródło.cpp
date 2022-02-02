@@ -27,15 +27,15 @@ int main() {
 			case 1:
 				sprzedaz();
 				continue;
-			//	break;
+			
 			case 2:
 				dostawa();
 				continue;
-				//break;
+				
 			case 3:
 				stan();
 				continue;
-			//	break;
+			
 			case 4:
 				break;
 			default:
@@ -43,5 +43,6 @@ int main() {
 				break;
 			}
 		} while (opcja != 4);
+		
 	return 0;
 }

@@ -1,6 +1,6 @@
 ﻿  Źródło.cpp
 C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\magazyn.h(11,2): warning C4091: "extern ": zignorowano na lewo od "Produkt" podczas gdy brak deklaracji zmiennej
 C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\magazyn.h(28,42): warning C4305: "inicjowanie": obcięcie z "double" do "float"
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(28,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
-C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(61,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
+C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(31,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
+C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\Kasa fiskalna\sprzedaz.h(66,17): warning C4552: „-”: Wynik wyrażenia nie jest używany
   Kasa fiskalna.vcxproj -> C:\Users\bartek\Desktop\Kasa Fiskalna\Kasa fiskalna\x64\Debug\Kasa fiskalna.exe

@@ -14,7 +14,7 @@ extern struct Produkt {
 
 
 
-	extern Produkt p[57344] = { 
+	extern Produkt p[1024] = { 
 		{0, "Cocacola", 56, 6.99},
 		{1, "Chipsy Lays", 49, 4.99},
 		{2, "Czekolada Milka", 34, 5.99 },

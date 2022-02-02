@@ -10,6 +10,7 @@ void sprzedaz() {
 	float suma{};
 	float zaplata{};
 	bool czyGotowka{};
+	int ilosc{};
 	cout << "Czy chcesz zapisaæ rachunek? [1 - tak / 0 - nie]" << endl;
 
 	cin >> czyZapisac;
@@ -22,14 +23,16 @@ void sprzedaz() {
 		fstream paragon;
 		paragon.open("paragon.txt", ios::out);
 		cout << "Podaj kod [-1 spowoduje zakoñczenie sprzeda¿y]" << endl;
-		do {
+		while(true) {
 			cin >> kod;
-			cout << p[kod].nazwa << " " << p[kod].cena << " z³" << endl;
-			p[kod].ilosc - 1;
+			if (kod == -1) { break; }
+			cout << "WprowadŸ iloœæ: "; cin >> ilosc;
+			cout <<ilosc<<" x "<< p[kod].nazwa << " " << ilosc * p[kod].cena << " z³" << endl;
+			p[kod].ilosc - ilosc;
 			paragon << p[kod].nazwa << " " << p[kod].cena << " z³" << endl;
-			suma += p[kod].cena;
+			suma += ilosc *p[kod].cena;
 
-		} while (kod != -1);
+		} 
 		cout << "Do zap³aty: " << suma << " z³." << endl;
 		paragon << "Do zap³aty: " << suma << " z³." << endl;
 		cout << "Wybierz rodzaj p³atnoœci: 0 - karta, 1 - gotówka " << endl;
@@ -55,13 +58,15 @@ void sprzedaz() {
 	}
 	else {
 		cout << "Podaj kod [-1 spowoduje zakoñczenie sprzeda¿y]" << endl;
-		do {
+		while (true) {
 			cin >> kod;
-			cout << p[kod].nazwa << " " << p[kod].cena << " z³" << endl;
-			p[kod].ilosc - 1;
-			suma += p[kod].cena;
+			if (kod == -1) { break; }
+			cout << "Podaj ilosc:"; cin >> ilosc;
+			cout << ilosc<<" x"<<p[kod].nazwa << " " <<ilosc* p[kod].cena << " z³" << endl;
+			p[kod].ilosc - ilosc;
+			suma += ilosc* p[kod].cena;
 
-		} while (kod != -1);
+		} 
 		cout << "Do zap³aty: " << suma << " z³." << endl;
 		cout << "Wybierz rodzaj p³atnoœci: 0 - karta, 1 - gotówka " << endl;
 		cin >> czyGotowka;
