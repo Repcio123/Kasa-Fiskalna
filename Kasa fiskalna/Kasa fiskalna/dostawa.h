@@ -9,7 +9,7 @@ void dostawa() {
 	
 	int kod{};
 		do {
-			cout << "Podaj kod otrzymanego produktu (-1 oznacza wyjœcie z funkcji): ";
+			cout << "Podaj kod produktu (-1 oznacza wyjœcie z funkcji): ";
 			cin >> kod;
 			if (kod == -1) { break; }
 
@@ -29,7 +29,7 @@ void nowy() {
 	float cena{};
 	int ilosc;
 
-	cout << "WprowadŸ kod pod którym bêdzie siê znajdowa³ Twój produkt (-1 oznacza wyjœcie z funkcji):";
+	cout << "WprowadŸ kod pod którym bêdzie siê znajdowa³ Twój produkt (-1 oznacza wyjœcie z funkcji):"<<endl;
 	do {
 
 		cin >> kod;

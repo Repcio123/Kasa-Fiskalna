@@ -24,9 +24,9 @@ int main() {
 			system("cls");
 			cout << endl;
 			cout << "Witaj sprzedawco!" << endl;
-			cout << "Z której opcji chcesz skorzystaæ? " << endl;
-			cout << "=========================================" << endl;
-			cout << "1. Tryb sprzeda¿y" << endl << "2. Tryb dostawy" << endl << "3. Stan magazynu" << endl << "4. Dodaj produkt" << endl<< "5. Zakoñcz" << endl;
+			cout << "Z której opcji chcesz skorzystaæ? " << endl<<endl;
+			cout << endl;
+			cout << "1. Tryb sprzeda¿y" << endl <<endl<< "2. Tryb dostawy" << endl<<endl << "3. Stan magazynu" << endl<<endl << "4. Dodaj produkt" << endl<<endl<< "5. Zakoñcz" << endl;
 			cin >> opcja;
 			switch (opcja) {
 			case 1:
